@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Property In CSS</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+           box-sizing: border-box;
+        }
+        div{
+            height: 500px;
+            margin: 10px 0px;
+            color: purple;
+
+        }
+        .background-attachment{
+           border: 10px double pink;
+           background-image: url(../img/grid18.jpg);
+           background-repeat: no-repeat;
+           background-size: cover;
+           background-position: center center;
+           background-attachment: fixed;
+        }
+        .background-clip{
+            border: 10px double pink;
+            background-image: url(../img/janmastmi7.jpeg); 
+            background-clip:content-box;
+            background-repeat: no-repeat;
+            padding: 100px;
+            
+        }
+        .background-origin{
+            border: 10px double pink;
+            background-image: url(../img/2.png);
+            background-repeat: no-repeat;
+            background-origin: border-box;
+        }
+        .background-color{
+            border: 10px double pink;
+            background-color: plum;
+        }
+        .background-image{
+            border: 10px double pink;
+            background-image: url(../img/2.png); 
+            background-repeat: no-repeat; 
+        }
+        .background-position{
+            border: 10px double pink;
+            background-image: url(../img/02.png);
+            background-repeat: no-repeat;
+            background-size: 100px;
+            background-position: center;
+        }
+        .background-repeat{
+            border: 10px double pink;  
+            background-image: url(../img/01.png);
+            background-repeat:round;
+        }
+        .background-size{
+            border: 10px double pink;  
+            background-image: url(../img/03.png);
+            background-size: contain; 
+        }
+        .shorthand-background{
+            border: 10px double pink;
+            background-image: url(../img/grid18.jpg) no-repeat center center/cover;  
+        }
+        .Multiple-background{
+            border: 10px double pink;
+            background: url(../img/1.png),url(../img/03.png); 
+            background-repeat: no-repeat no-repeat ;
+            background-size: 300px cover;
+            background-position: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Background Property In CSS</h1>
+    <ul>
+      <li>background-attachment</li>
+      <li>background-clip</li>
+      <li>background-origin</li>
+      <li>background-color</li>
+      <li>background-image</li>
+      <li>background-position</li>
+      <li>background-repeat</li>
+      <li>background-size</li>
+      <li>shorthand-background</li>
+      <li>Multiple-background</li>
+    </ul>
+    <hr>
+    <div class="background-attachment">background-attachment</div>
+    <div class="background-clip">background-clip</div>
+    <div class="background-origin">background-origin</div>
+    <div class="background-color">background-color</div>
+    <div class="background-image">background-image</div>
+    <div class="background-position">background-position</div>
+    <div class="background-repeat">background-repeat</div>
+    <div class="background-size">background-size</div>
+    <div class="shorthand-background">shorthand-background</div>
+    <div class="Multiple-background">Multiple-background</div>
+</body>
+</html>
