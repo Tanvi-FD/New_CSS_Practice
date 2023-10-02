@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query max</title>
+    <style>
+        p{
+            color: rgb(188, 210, 210);
+            background-color: rgb(253, 5, 178);
+            font-size: 50px;
+            text-align: center;
+
+        }
+        p::after{
+            content: " oregnal";
+
+        }
+
+
+        /* mediaquery start  */
+        
+        @media (max-width: 1400px) { 
+            p::after{
+            content: " 1400px";
+
+        }
+
+         }
+        @media (max-width: 1200px) { 
+            p::after{
+            content: " 1200px";
+
+        }
+
+         }
+        @media (max-width: 992px) { 
+            p::after{
+            content: " 992px";
+
+        }
+       
+         }
+        @media (max-width: 768px) { 
+            p::after{
+            content: " 768px";
+
+        }
+
+         }
+        @media (max-width: 576px) { 
+            p::after{
+            content: " 576px";
+
+        }
+
+         }
+        </style>
+</head>
+<body>
+    <p>tanvi</p>
+</body>
+</html>
