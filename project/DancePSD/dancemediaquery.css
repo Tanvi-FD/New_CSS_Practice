@@ -1,0 +1,14 @@
+@media (max-width: 1400px) { 
+
+}
+@media (max-width: 1200px) { 
+   #header-wrapper{
+       height: 140vh;
+       text-align: center;
+   }
+   .container1, .container2, .container3, .container4, .container5, .container6, .container7{
+       height: 200vh;
+       text-align: center;
+   }
+
+}
