@@ -39,7 +39,7 @@ body , html{
 header{
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/img01/header-bg.png);
+    background-image: url(./img01/header-bg.png);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -121,7 +121,7 @@ p{
 .explore{
     width: 100%;
     height: 100vh;
-    background-image: url('../img/img01/bg2.png');
+    background-image: url('./img01/bg2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

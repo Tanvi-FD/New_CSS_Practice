@@ -278,7 +278,7 @@
 }
 .contenar5{
     height: 100vh;
-    background-image: url(../img/d06.png);
+    background-image: url(./danceimg/d06.png);
     background-size: cover;
     background-color: #e8631c;
     background-blend-mode: multiply;
