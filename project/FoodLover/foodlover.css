@@ -513,6 +513,146 @@ footer span {
         left: 50px;
     }
 }
-@media screen and (max-width:1200px){
-    
-}
+ /* @media screen and (max-width:1200px){
+    header {
+        height: 800px;
+    } */
+
+    /* Adjust first section */
+    /* .first-section {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .section-first-img img {
+        width: 90%;
+    }
+
+    .section-first-text,
+    .section-second-img {
+        flex-basis: 100%;
+    }
+
+    .section-first-text h1 {
+        font-size: 25px;
+        margin-left: 60px;
+    }
+
+    .left-nav ul li a,
+    .right-nav ul li a {
+        display: none;
+    }
+
+    .bars i {
+        display: block;
+    }
+
+    /* Adjust second section */
+    /* .section-second-text p {
+        width: 100%;
+    }
+
+    .section-second-text,
+    .section-second-img {
+        text-align: center;
+        flex-basis: 100%;
+    } */
+
+    /* Adjust third section */
+    /* .plate-1-img {
+        top: 20px;
+        right: -80px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-third img {
+        width: 100%;
+    }
+
+    .shape img {
+        top: 0;
+        left: -60px;
+        width: 115%;
+    }
+
+    .section-third-text {
+        width: 300px;
+        font-size: 20px;
+        height: 300px;
+        left: 20px;
+        top: 150px;
+    }
+
+    .section-third-text p {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .section-third-text h1 {
+        font-size: 30px;
+    }
+
+    .plate-2-img {
+        width: 230px;
+        right: -50px;
+        bottom: 100px;
+        height: 230px;
+    }
+
+    .plate-3-img {
+        bottom: 40px;
+        left: -50px;
+        width: 200px;
+        height: 200px;
+    } */
+
+    /* Adjust fourth section */
+    /* .gallery {
+        grid-template-columns: repeat(1, auto);
+        gap: 50px;
+    }
+
+    .gallery img {
+        width: 100%;
+    }
+
+    .three-menu {
+        width: 100%;
+    } */
+
+    /* Adjust fifth section */
+    /* .fifth-setion,
+    .fifth-section-text {
+        width: 100%;
+        height: auto;
+    } */
+
+    /* Adjust sixth section */
+    /* .six-section {
+        width: 100%;
+        padding: 30px 50px;
+    }
+
+    .menu {
+        flex-basis: 100%;
+        padding: 0 50px;
+    } */
+
+    /* Adjust seventh section */
+    /* .seven {
+        height: 800px;
+    }
+
+    .seven-img {
+        width: 350px;
+        position: absolute;
+        left: 110px;
+        top: -50px;
+    }
+
+    .seven-text {
+        bottom: 150px;
+        left: 50px;
+    }
+}  */

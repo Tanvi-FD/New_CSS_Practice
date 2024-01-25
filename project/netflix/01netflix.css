@@ -3,8 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #header-wrapper{
-    background: linear-gradient( rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.9) 100%),url(./netfliximg/header-image.png)no-repeat center center/cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../netflix/netfliximg/header-image.png);
+
     height: 100vh;
 }
 nav {
@@ -63,7 +66,7 @@ p {
     padding: 15px 5px;
     border: 1px solid white;
     background-color:  black;
-    opacity: 0.5;
+    opacity: 0.9;
 }
  .btn button {
     border: none;
@@ -72,6 +75,7 @@ p {
     font-size: 25px;
     background-color: red;
     color: white;
+    cursor: pointer;
 }
 section {
     background-color: black;
@@ -88,12 +92,36 @@ section {
 .box{
     align-self: center;
 }
+
 .box h1,p{
     padding: 15px 0px;
 }
 .imgbox {
     height: 490px;
 }
+
+nav > ul > li .change_mode {
+    position: absolute;
+    visibility: hidden;
+    width: 150px;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    transition: 4s linear;
+  }
+  nav > ul > li .change_mode li {
+    padding: 5px 8px;
+    color: white;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+  }
+  .hide-show {
+    visibility: visible !important;
+  }
 
 
 .faq{
@@ -188,3 +216,18 @@ h4 {
 
 
    
+   .work{
+    background-color: #222;
+    color: #e6e6e6;
+}
+.dark{
+    background-color: white;
+    color: black;
+}
+.mode{
+    background-color: white;
+    border: 1px sold black;
+    border-radius: 20px ;
+    display: inline-block;
+    padding: 6px;
+}
